@@ -1,0 +1,149 @@
+<DOCTYPE! html>
+<head>
+    <title>Heavenly Berry</title>
+    <link href='./style.css'rel='stylesheet' type='text/css'>
+    <meta charset='utf-8'>
+    <meta name='Dessert Restaurant' content='Dessert Menu'>
+</head>
+<body>
+
+    <header role='banner'> 
+        <h1>Heavenly Berry</h1>
+        <nav>
+        <ol role='navigation'>
+            <li class="nav">
+                <a class="color" href='#Menu'>Menu</a>
+            </li>
+            <li class="nav">
+                <a class="color"href='#Place an order'>Place an order</a>
+            </li>
+            <li class="nav">
+                <a class="color"href='#Who We Are'>Who We Wre</a>
+            </li>
+            <li class="nav">
+                <a class="color"href='#Contact Us'>Contact Us</a>
+            </li>
+        </ol>
+        </nav>
+    </header>
+    <main role='main'>
+        <h2>
+            <div id='Menu'>Menu</div>
+        </h2> 
+        <h3>
+            <b>Berry World</b>
+        </h3>
+        </main>
+            <img src="https://i.pinimg.com/736x/62/78/70/627870bfad61c3c35e48364dc92d5b30.jpg" alt="Berry World">
+            <p class="description">Chocolate, whipped cream, strawberries, raspberries and blueberries.</p>
+            <span>$15.00</span>
+            <h3>
+                <b>Chocoberry</b>
+            </h3>
+                <img src="https://images.sweetauthoring.com/recipe/165103_959.jpg" alt="Chocoberry">
+                <p class="description">Cookie dough, chocolate, and raspberries.</p>
+                <span>$10.00</span>
+                <h3>
+                    <b>Paradise</b>
+                </h3>
+                    <img src="https://www.thekitchenmccabe.com/wp-content/uploads/2014/10/Little-Double-Chocolate-Berry-Cakes-2-598x900.jpg" alt="Paradise">
+                    <p class="description">Chocolate, raspberries, strawberries, and blueberries.</p>
+                    <span>$13.00</span>
+                    <hr>
+                    <main role='main'>
+                        <h2>
+                            <div id='Place an order'>Place an order</div>
+                        </h2> 
+                    <form action="submission.html" method="POST" role='order_form'>
+                        <h4>Personal details</h4>
+                        <input type='text' placeholder='Name'>
+                        <input type='text' placeholder='Last name'>
+                    </form>
+                    <form action="submission.html" method="POST" role='order form'>   
+                        <h4>Address</h4>
+                        <input type='text' placeholder='Street'>
+                        <input type='text' placeholder='Apt'>
+                        <input type='text' placeholder='State'>
+                        <input type='text' placeholder='City'>
+                        <input type='text' placeholder='Zip Code'>
+                    </form>
+                    <form action="submission.html" method="POST" role='order form'>
+                        <h4>Phone number</h4>
+                        <label for="numbers"></label>
+                        <input type="number" placeholder="(000) 000-0000" minlenght="10" maxlenght="12">
+                    </form>
+                    <form action="submission.html" method="POST" role='order form'>
+                        <h4>Email Address</h4>
+                        <input type='email' placeholder='example@gmail.com'>
+                    </form>
+                    <form action="submission.html" method="POST" role='order form'>
+                        <h4>Order Your Dessert</h4>
+                        <label class="menuoptions" for="order"><strong><u>Menu options</u></strong></label>
+                            <select name="order" id="order">
+                                <option value="Select">Select</option>
+                                <option value="Berry World">Berry World</option>
+                                <option value="Chocoberry">Chocoberry</option>
+                                <option value="Paradise">Paradise</option>
+                            </select>
+                    </form>
+                    <div>
+                        <h4>Pay Using Credit or Debit Card</h4>
+                    <form class="payment" action="submission.html" method="POST" role='order form'>
+                          <label for="card-number">Card Number</label>
+                          <input type="number" placeholder="###-###-###">
+                    </form>
+                    </div>
+                    <div class="payment">
+                        <form action="submission.html" method="POST" role='order form'></form>
+                          <label for="expiration date">Expiration Date</label>
+                          <input type="number" class="date-number-field" placeholder="DD-MM-YY">
+                        </form>
+                     </div>
+                     <br>
+                     <div class="payment">
+                        <form action="submission.html" method="POST" role='order form'>
+                          <label for="CVV Number">CVV Number</label>
+                          <input type="number" class="cvv-number-field" placeholder="xxx" >
+                        </form>
+                     </div>
+                        <div class="payment">
+                          <form action="submission.html" method="POST" role='order form'>
+                            <label for="Card Holder Name">Card Holder Name</label>
+                            <input type="text" class="card-name-field" placeholder="Enter your Name">
+                        </div>
+                        <br>
+                    <div>
+                        <form action="#" method="POST" role='order form'>
+                            <input class="order" type='submit' value='order'>
+                        </form>
+                    </div>
+                    </hr>
+                    </main>
+            <hr>
+                <main role='main'>
+                    <h2>
+                        <div id='Who We Are'>Who we are</div>
+                    </h2> 
+                    <aside role='complementary'>
+                        <p>Heavenlyberry comes from a little town in Perugia called Castiglione Dil Lago. We are in charge of producing a large amount of fruits for the whole country of Italy, and one of them are berries. Strawberries, Blueberries, Raspberries... We are all about berries. We want to bring some of the Italian flavor to New York City.</p>
+                        <h4>Come taste a piece of Italy!</h4>
+                        <img src="https://i0.wp.com/italianberry.it/wp-content/uploads/2021/09/IMG_7548-1.jpg" alt="berries"
+                      </aside>
+                </main> 
+            </hr>
+            <hr>
+                <main role='main'></main>
+                <h2>
+                    <div id='Contact Us'>Contact Us</div>
+                </h2> 
+                <footer role='contentinfo'>
+                    <h3 class="">We are here for you!</h3>
+                    <h4>Schedule</h4>
+                    <p><b>Mon - Thurs</b></p>
+                    <p>3 pm - 9 pm </p>
+                    <p><b>Fri - Sun</b></p>
+                    <p>6 pm - 12 pm</p>
+                    <h5>You can contact us through...</h5>
+                    <p>h.berry@gmail.com | (123)456-9562</p>
+                  </footer>
+</body>
